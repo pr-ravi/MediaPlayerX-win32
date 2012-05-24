@@ -1,0 +1,36 @@
+﻿Build started 3/17/2012 11:39:35 PM.
+     1>Project "D:\taglib-1.7\bindings\c\tag_c.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\taglib-1.7\bindings\c\Debug\".
+       InitializeBuildStatus:
+         Creating "tag_c.dir\Debug\tag_c.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/taglib-1.7/bindings/c/CMakeLists.txt
+         CMake does not need to re-run because D:\taglib-1.7\bindings\c\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:/taglib-1.7" /I"D:/taglib-1.7/bindings/c/../../taglib" /I"D:/taglib-1.7/bindings/c/../../taglib/toolkit" /I"D:/taglib-1.7/bindings/c/../../taglib/asf" /I"D:/taglib-1.7/bindings/c/../../taglib/mpeg" /I"D:/taglib-1.7/bindings/c/../../taglib/ogg" /I"D:/taglib-1.7/bindings/c/../../taglib/ogg/vorbis" /I"D:/taglib-1.7/bindings/c/../../taglib/ogg/flac" /I"D:/taglib-1.7/bindings/c/../../taglib/flac" /I"D:/taglib-1.7/bindings/c/../../taglib/mpc" /I"D:/taglib-1.7/bindings/c/../../taglib/mp4" /I"D:/taglib-1.7/bindings/c/../../taglib/mpeg/id3v2" /I"D:/taglib-1.7/bindings/c/../../taglib/mpeg/id3v2/frames" /I"D:/taglib-1.7/bindings/c/../../taglib/wavpack" /I"D:/taglib-1.7/bindings/c/../../taglib/ogg/speex" /I"D:/taglib-1.7/bindings/c/../../taglib/trueaudio" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D TAGLIB_STATIC /D "CMAKE_INTDIR=\"Debug\"" /D MAKE_TAGLIB_C_LIB /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"tag_c.dir\Debug\\" /Fd"D:/taglib-1.7/bindings/c/Debug/tag_cd.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\taglib-1.7\bindings\c\tag_c.cpp"  /Zm1000 
+         tag_c.cpp
+     1>D:\taglib-1.7\bindings\c\tag_c.cpp(53): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>D:\taglib-1.7\bindings\c\tag_c.cpp(58): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"tag_c.dir\Debug\tag_cd.dll.embed.manifest.res" tag_c.dir\Debug\tag_cd_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\taglib-1.7\bindings\c\Debug\tag_cd.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\taglib\Debug\tagd.lib /MANIFEST /ManifestFile:"tag_c.dir\Debug\tag_cd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\taglib-1.7\bindings\c\Debug\tag_cd.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/taglib-1.7/bindings/c/Debug/tag_cd.lib" /MACHINE:X86 /DLL tag_c.dir\Debug\tag_cd.dll.embed.manifest.res
+         tag_c.dir\Debug\tag_c.obj  /machine:X86 /debug 
+            Creating library D:/taglib-1.7/bindings/c/Debug/tag_cd.lib and object D:/taglib-1.7/bindings/c/Debug/tag_cd.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"tag_c.dir\Debug\tag_cd.dll.embed.manifest" /manifest tag_c.dir\Debug\tag_cd.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"tag_c.dir\Debug\tag_cd.dll.embed.manifest.res" tag_c.dir\Debug\tag_cd_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\taglib-1.7\bindings\c\Debug\tag_cd.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\taglib\Debug\tagd.lib /MANIFEST /ManifestFile:"tag_c.dir\Debug\tag_cd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\taglib-1.7\bindings\c\Debug\tag_cd.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/taglib-1.7/bindings/c/Debug/tag_cd.lib" /MACHINE:X86 /DLL tag_c.dir\Debug\tag_cd.dll.embed.manifest.res
+         tag_c.dir\Debug\tag_c.obj  /machine:X86 /debug 
+            Creating library D:/taglib-1.7/bindings/c/Debug/tag_cd.lib and object D:/taglib-1.7/bindings/c/Debug/tag_cd.exp
+         tag_c.vcxproj -> D:\taglib-1.7\bindings\c\Debug\tag_cd.dll
+       FinalizeBuildStatus:
+         Deleting file "tag_c.dir\Debug\tag_c.unsuccessfulbuild".
+         Touching "tag_c.dir\Debug\tag_c.lastbuildstate".
+     1>Done Building Project "D:\taglib-1.7\bindings\c\tag_c.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.88

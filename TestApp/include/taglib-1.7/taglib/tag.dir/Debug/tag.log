@@ -1,0 +1,192 @@
+﻿Build started 3/17/2012 11:38:50 PM.
+     1>Project "D:\taglib-1.7\taglib\tag.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\taglib-1.7\taglib\Debug\".
+       InitializeBuildStatus:
+         Creating "tag.dir\Debug\tag.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/taglib-1.7/taglib/CMakeLists.txt
+         CMake does not need to re-run because D:\taglib-1.7\taglib\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:/taglib-1.7/taglib" /I"D:/taglib-1.7" /I"D:/taglib-1.7/taglib/toolkit" /I"D:/taglib-1.7/taglib/asf" /I"D:/taglib-1.7/taglib/mpeg" /I"D:/taglib-1.7/taglib/ogg" /I"D:/taglib-1.7/taglib/ogg/flac" /I"D:/taglib-1.7/taglib/flac" /I"D:/taglib-1.7/taglib/mpc" /I"D:/taglib-1.7/taglib/mp4" /I"D:/taglib-1.7/taglib/ogg/vorbis" /I"D:/taglib-1.7/taglib/ogg/speex" /I"D:/taglib-1.7/taglib/mpeg/id3v2" /I"D:/taglib-1.7/taglib/mpeg/id3v2/frames" /I"D:/taglib-1.7/taglib/mpeg/id3v1" /I"D:/taglib-1.7/taglib/ape" /I"D:/taglib-1.7/taglib/wavpack" /I"D:/taglib-1.7/taglib/trueaudio" /I"D:/taglib-1.7/taglib/riff" /I"D:/taglib-1.7/taglib/riff/aiff" /I"D:/taglib-1.7/taglib/riff/wav" /I"D:/taglib-1.7/taglib/.." /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D TAGLIB_STATIC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"tag.dir\Debug\\" /Fd"D:/taglib-1.7/taglib/Debug/tagd.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\taglib-1.7\taglib\mpeg\mpegfile.cpp" "D:\taglib-1.7\taglib\mpeg\mpegproperties.cpp" "D:\taglib-1.7\taglib\mpeg\mpegheader.cpp" "D:\taglib-1.7\taglib\mpeg\xingheader.cpp" "D:\taglib-1.7\taglib\mpeg\id3v1\id3v1tag.cpp" "D:\taglib-1.7\taglib\mpeg\id3v1\id3v1genres.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\id3v2framefactory.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\id3v2synchdata.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\id3v2tag.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\id3v2header.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\id3v2frame.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\id3v2footer.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\id3v2extendedheader.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\attachedpictureframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\commentsframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\popularimeterframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\privateframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\relativevolumeframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\textidentificationframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\uniquefileidentifierframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\unknownframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.cpp" "D:\taglib-1.7\taglib\mpeg\id3v2\frames\urllinkframe.cpp" "D:\taglib-1.7\taglib\ogg\oggfile.cpp" "D:\taglib-1.7\taglib\ogg\oggpage.cpp" "D:\taglib-1.7\taglib\ogg\oggpageheader.cpp" "D:\taglib-1.7\taglib\ogg\xiphcomment.cpp" "D:\taglib-1.7\taglib\ogg\vorbis\vorbisfile.cpp" "D:\taglib-1.7\taglib\ogg\vorbis\vorbisproperties.cpp" "D:\taglib-1.7\taglib\ogg\flac\oggflacfile.cpp" "D:\taglib-1.7\taglib\mpc\mpcfile.cpp" "D:\taglib-1.7\taglib\mpc\mpcproperties.cpp" "D:\taglib-1.7\taglib\ape\apetag.cpp" "D:\taglib-1.7\taglib\ape\apefooter.cpp" "D:\taglib-1.7\taglib\ape\apeitem.cpp" "D:\taglib-1.7\taglib\ape\apefile.cpp" "D:\taglib-1.7\taglib\ape\apeproperties.cpp" "D:\taglib-1.7\taglib\toolkit\tstring.cpp" "D:\taglib-1.7\taglib\toolkit\tstringlist.cpp" "D:\taglib-1.7\taglib\toolkit\tbytevector.cpp" "D:\taglib-1.7\taglib\toolkit\tbytevectorlist.cpp" "D:\taglib-1.7\taglib\toolkit\tfile.cpp" "D:\taglib-1.7\taglib\toolkit\tdebug.cpp" "D:\taglib-1.7\taglib\toolkit\unicode.cpp" "D:\taglib-1.7\taglib\flac\flacfile.cpp" "D:\taglib-1.7\taglib\flac\flacpicture.cpp" "D:\taglib-1.7\taglib\flac\flacproperties.cpp" "D:\taglib-1.7\taglib\flac\flacmetadatablock.cpp" "D:\taglib-1.7\taglib\flac\flacunknownmetadatablock.cpp" "D:\taglib-1.7\taglib\wavpack\wavpackfile.cpp" "D:\taglib-1.7\taglib\wavpack\wavpackproperties.cpp" "D:\taglib-1.7\taglib\ogg\speex\speexfile.cpp" "D:\taglib-1.7\taglib\ogg\speex\speexproperties.cpp" "D:\taglib-1.7\taglib\trueaudio\trueaudiofile.cpp" "D:\taglib-1.7\taglib\trueaudio\trueaudioproperties.cpp" "D:\taglib-1.7\taglib\riff\rifffile.cpp" "D:\taglib-1.7\taglib\riff\aiff\aifffile.cpp" "D:\taglib-1.7\taglib\riff\aiff\aiffproperties.cpp" "D:\taglib-1.7\taglib\riff\wav\wavfile.cpp" "D:\taglib-1.7\taglib\riff\wav\wavproperties.cpp" "D:\taglib-1.7\taglib\mp4\mp4file.cpp" "D:\taglib-1.7\taglib\mp4\mp4atom.cpp" "D:\taglib-1.7\taglib\mp4\mp4tag.cpp" "D:\taglib-1.7\taglib\mp4\mp4item.cpp" "D:\taglib-1.7\taglib\mp4\mp4properties.cpp" "D:\taglib-1.7\taglib\mp4\mp4coverart.cpp" "D:\taglib-1.7\taglib\asf\asftag.cpp" "D:\taglib-1.7\taglib\asf\asffile.cpp" "D:\taglib-1.7\taglib\asf\asfproperties.cpp" "D:\taglib-1.7\taglib\asf\asfattribute.cpp" "D:\taglib-1.7\taglib\asf\asfpicture.cpp" "D:\taglib-1.7\taglib\tag.cpp" "D:\taglib-1.7\taglib\tagunion.cpp" "D:\taglib-1.7\taglib\fileref.cpp" "D:\taglib-1.7\taglib\audioproperties.cpp"  /Zm1000 
+         mpegfile.cpp
+         mpegproperties.cpp
+     1>D:\taglib-1.7\taglib\mpeg\mpegproperties.cpp(224): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         mpegheader.cpp
+         xingheader.cpp
+         id3v1tag.cpp
+         id3v1genres.cpp
+         id3v2framefactory.cpp
+         id3v2synchdata.cpp
+         id3v2tag.cpp
+         id3v2header.cpp
+         id3v2frame.cpp
+         id3v2footer.cpp
+         id3v2extendedheader.cpp
+         attachedpictureframe.cpp
+         commentsframe.cpp
+         generalencapsulatedobjectframe.cpp
+         popularimeterframe.cpp
+         privateframe.cpp
+         relativevolumeframe.cpp
+         textidentificationframe.cpp
+         Generating Code...
+         Compiling...
+         uniquefileidentifierframe.cpp
+         unknownframe.cpp
+         unsynchronizedlyricsframe.cpp
+         urllinkframe.cpp
+         oggfile.cpp
+         oggpage.cpp
+         oggpageheader.cpp
+         xiphcomment.cpp
+         vorbisfile.cpp
+         vorbisproperties.cpp
+     1>D:\taglib-1.7\taglib\ogg\vorbis\vorbisproperties.cpp(176): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         oggflacfile.cpp
+         mpcfile.cpp
+         mpcproperties.cpp
+         apetag.cpp
+         apefooter.cpp
+         apeitem.cpp
+         apefile.cpp
+         apeproperties.cpp
+         tstring.cpp
+         tstringlist.cpp
+         Generating Code...
+         Compiling...
+         tbytevector.cpp
+         tbytevectorlist.cpp
+         tfile.cpp
+         tdebug.cpp
+         unicode.cpp
+     1>D:\taglib-1.7\taglib\toolkit\unicode.cpp(158): warning C4244: '=' : conversion from 'Unicode::UTF32' to 'Unicode::UTF8', possible loss of data
+     1>D:\taglib-1.7\taglib\toolkit\unicode.cpp(256): warning C4244: '=' : conversion from 'Unicode::UTF32' to 'Unicode::UTF16', possible loss of data
+     1>D:\taglib-1.7\taglib\toolkit\unicode.cpp(273): warning C4244: '=' : conversion from 'unsigned long' to 'Unicode::UTF16', possible loss of data
+         flacfile.cpp
+     1>D:\taglib-1.7\taglib\flac\flacfile.cpp(199): warning C4309: '=' : truncation of constant value
+         flacpicture.cpp
+         flacproperties.cpp
+         flacmetadatablock.cpp
+         flacunknownmetadatablock.cpp
+         wavpackfile.cpp
+         wavpackproperties.cpp
+         speexfile.cpp
+         speexproperties.cpp
+         trueaudiofile.cpp
+         trueaudioproperties.cpp
+         rifffile.cpp
+         aifffile.cpp
+         aiffproperties.cpp
+     1>D:\taglib-1.7\taglib\riff\aiff\aiffproperties.cpp(150): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>D:\taglib-1.7\taglib\riff\aiff\aiffproperties.cpp(151): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         wavfile.cpp
+         Generating Code...
+         Compiling...
+         wavproperties.cpp
+         mp4file.cpp
+         mp4atom.cpp
+         mp4tag.cpp
+         mp4item.cpp
+         mp4properties.cpp
+         mp4coverart.cpp
+         asftag.cpp
+         asffile.cpp
+     1>D:\taglib-1.7\taglib\asf\asffile.cpp(333): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>D:\taglib-1.7\taglib\asf\asffile.cpp(485): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'TagLib::ulong', possible loss of data
+         asfproperties.cpp
+         asfattribute.cpp
+         asfpicture.cpp
+     1>D:\taglib-1.7\taglib\asf\asfpicture.cpp(40): warning C4099: 'TagLib::ASF::Picture::PicturePriavte' : type name first seen using 'struct' now seen using 'class'
+                 d:\taglib-1.7\taglib\asf\asfpicture.h(211) : see declaration of 'TagLib::ASF::Picture::PicturePriavte'
+         tag.cpp
+         tagunion.cpp
+         fileref.cpp
+         audioproperties.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\taglib-1.7\taglib\Debug\tagd.lib" /NOLOGO tag.dir\Debug\mpegfile.obj
+         tag.dir\Debug\mpegproperties.obj
+         tag.dir\Debug\mpegheader.obj
+         tag.dir\Debug\xingheader.obj
+         tag.dir\Debug\id3v1tag.obj
+         tag.dir\Debug\id3v1genres.obj
+         tag.dir\Debug\id3v2framefactory.obj
+         tag.dir\Debug\id3v2synchdata.obj
+         tag.dir\Debug\id3v2tag.obj
+         tag.dir\Debug\id3v2header.obj
+         tag.dir\Debug\id3v2frame.obj
+         tag.dir\Debug\id3v2footer.obj
+         tag.dir\Debug\id3v2extendedheader.obj
+         tag.dir\Debug\attachedpictureframe.obj
+         tag.dir\Debug\commentsframe.obj
+         tag.dir\Debug\generalencapsulatedobjectframe.obj
+         tag.dir\Debug\popularimeterframe.obj
+         tag.dir\Debug\privateframe.obj
+         tag.dir\Debug\relativevolumeframe.obj
+         tag.dir\Debug\textidentificationframe.obj
+         tag.dir\Debug\uniquefileidentifierframe.obj
+         tag.dir\Debug\unknownframe.obj
+         tag.dir\Debug\unsynchronizedlyricsframe.obj
+         tag.dir\Debug\urllinkframe.obj
+         tag.dir\Debug\oggfile.obj
+         tag.dir\Debug\oggpage.obj
+         tag.dir\Debug\oggpageheader.obj
+         tag.dir\Debug\xiphcomment.obj
+         tag.dir\Debug\vorbisfile.obj
+         tag.dir\Debug\vorbisproperties.obj
+         tag.dir\Debug\oggflacfile.obj
+         tag.dir\Debug\mpcfile.obj
+         tag.dir\Debug\mpcproperties.obj
+         tag.dir\Debug\apetag.obj
+         tag.dir\Debug\apefooter.obj
+         tag.dir\Debug\apeitem.obj
+         tag.dir\Debug\apefile.obj
+         tag.dir\Debug\apeproperties.obj
+         tag.dir\Debug\tstring.obj
+         tag.dir\Debug\tstringlist.obj
+         tag.dir\Debug\tbytevector.obj
+         tag.dir\Debug\tbytevectorlist.obj
+         tag.dir\Debug\tfile.obj
+         tag.dir\Debug\tdebug.obj
+         tag.dir\Debug\unicode.obj
+         tag.dir\Debug\flacfile.obj
+         tag.dir\Debug\flacpicture.obj
+         tag.dir\Debug\flacproperties.obj
+         tag.dir\Debug\flacmetadatablock.obj
+         tag.dir\Debug\flacunknownmetadatablock.obj
+         tag.dir\Debug\wavpackfile.obj
+         tag.dir\Debug\wavpackproperties.obj
+         tag.dir\Debug\speexfile.obj
+         tag.dir\Debug\speexproperties.obj
+         tag.dir\Debug\trueaudiofile.obj
+         tag.dir\Debug\trueaudioproperties.obj
+         tag.dir\Debug\rifffile.obj
+         tag.dir\Debug\aifffile.obj
+         tag.dir\Debug\aiffproperties.obj
+         tag.dir\Debug\wavfile.obj
+         tag.dir\Debug\wavproperties.obj
+         tag.dir\Debug\mp4file.obj
+         tag.dir\Debug\mp4atom.obj
+         tag.dir\Debug\mp4tag.obj
+         tag.dir\Debug\mp4item.obj
+         tag.dir\Debug\mp4properties.obj
+         tag.dir\Debug\mp4coverart.obj
+         tag.dir\Debug\asftag.obj
+         tag.dir\Debug\asffile.obj
+         tag.dir\Debug\asfproperties.obj
+         tag.dir\Debug\asfattribute.obj
+         tag.dir\Debug\asfpicture.obj
+         tag.dir\Debug\tag.obj
+         tag.dir\Debug\tagunion.obj
+         tag.dir\Debug\fileref.obj
+         tag.dir\Debug\audioproperties.obj
+         tag.vcxproj -> D:\taglib-1.7\taglib\Debug\tagd.lib
+       FinalizeBuildStatus:
+         Deleting file "tag.dir\Debug\tag.unsuccessfulbuild".
+         Touching "tag.dir\Debug\tag.lastbuildstate".
+     1>Done Building Project "D:\taglib-1.7\taglib\tag.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:45.75

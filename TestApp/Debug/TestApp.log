@@ -1,0 +1,120 @@
+﻿Build started 5/24/2012 11:51:43 AM.
+     1>Project "D:\eng\MediaPlayerX\TestApp\TestApp.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TestApp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CppSQLite3.cpp Main.cpp
+         Main.cpp
+     1>d:\eng\mediaplayerx\testapp\funcs.h(268): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\eng\mediaplayerx\testapp\funcs.h(260): warning C4101: 'i' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\funcs.h(257): warning C4101: 'pict' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\funcs.h(518): warning C4244: '=' : conversion from 'uint64_t' to 'double', possible loss of data
+     1>d:\eng\mediaplayerx\testapp\funcs.h(520): warning C4244: '=' : conversion from 'int64_t' to 'double', possible loss of data
+     1>d:\eng\mediaplayerx\testapp\funcs.h(546): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\eng\mediaplayerx\testapp\funcs.h(641): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(83): warning C4091: 'typedef ' : ignored on left of 'sel_listItems' when no variable is declared
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(223): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(227): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(227): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(274): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(274): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(276): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(276): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(284): warning C4172: returning address of local variable or temporary
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(296): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(296): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(302): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(302): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(308): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(308): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(391): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(391): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(393): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(393): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(395): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(395): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(380): warning C4101: 'szSelectField' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(403): warning C4101: 'str' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(534): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(533) : see declaration of 'wcstombs'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(575): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(575): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(577): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(577): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(587): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(587): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(589): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(589): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(598): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(598): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(600): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(600): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(523): warning C4101: 'query' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(698): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(698): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(800): warning C4101: 'aRect' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(799): warning C4101: 'PaintSt' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\glb_func.h(798): warning C4101: 'hDC' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\main.cpp(185): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\main.cpp(185): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\eng\mediaplayerx\testapp\main.cpp(225): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\main.cpp(225): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\main.cpp(229): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\main.cpp(229): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\main.cpp(322): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>d:\eng\mediaplayerx\testapp\main.cpp(18): warning C4101: 'aRect' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\main.cpp(24): warning C4101: 'y' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\main.cpp(17): warning C4101: 'PaintSt' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\main.cpp(16): warning C4101: 'hDC' : unreferenced local variable
+     1>d:\eng\mediaplayerx\testapp\main.cpp(493): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\main.cpp(493): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\main.cpp(494): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\main.cpp(494): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\eng\mediaplayerx\testapp\main.cpp(495): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>d:\eng\mediaplayerx\testapp\main.cpp(495): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         CppSQLite3.cpp
+     1>d:\eng\mediaplayerx\testapp\cppsqlite3.cpp(1079): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\eng\mediaplayerx\testapp\cppsqlite3.cpp(1255): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+     1>d:\eng\mediaplayerx\testapp\funcs.h(603): warning C4715: 'stream_component_open' : not all control paths return a value
+     1>d:\eng\mediaplayerx\testapp\main.cpp(338): warning C4715: 'WindowProc' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\eng\MediaPlayerX\Debug\TestApp.exe" /NOLOGO UxTheme.lib swscale.lib avutil.lib avcodec.lib avformat.lib SDL.lib Dwmapi.lib avformat.lib sqlite3.lib D2d1.lib ComCtl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestApp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\eng\MediaPlayerX\Debug\TestApp.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\eng\MediaPlayerX\Debug\TestApp.lib" /MACHINE:X86 Debug\CppSQLite3.obj
+         Debug\Main.obj
+         TestApp.vcxproj -> D:\eng\MediaPlayerX\Debug\TestApp.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\eng\MediaPlayerX\Debug\TestApp.exe;#1" /manifest Debug\TestApp.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\TestApp.unsuccessfulbuild".
+         Touching "Debug\TestApp.lastbuildstate".
+     1>Done Building Project "D:\eng\MediaPlayerX\TestApp\TestApp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.98

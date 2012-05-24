@@ -1,0 +1,9 @@
+<!-- Workspace file for the Zeus for Windows IDE - http://www.zeusedit.com -->
+<Workspace name="MediaPlayerX" sorted="Yes" autosynch="Yes" filename="MediaPlayerX.sln" st_mtime="1332506480">
+    <Mode>Debug</Mode>
+    <Active>console_try</Active>
+    <Project name="console_try">console_try\console_try.zpi</Project>
+    <Project name="FFmpeg_SDL">FFmpeg_SDL\FFmpeg_SDL.zpi</Project>
+    <Project name="MediaPlayerX">MediaPlayerX\MediaPlayerX.zpi</Project>
+    <Project name="TestApp">TestApp\TestApp.zpi</Project>
+</Workspace>

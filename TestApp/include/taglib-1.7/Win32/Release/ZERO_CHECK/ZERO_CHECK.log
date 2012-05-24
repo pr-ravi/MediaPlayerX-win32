@@ -1,0 +1,41 @@
+﻿Build started 3/17/2012 11:39:50 PM.
+     1>Project "D:\taglib-1.7\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\taglib-1.7\Release\".
+       InitializeBuildStatus:
+         Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/taglib-1.7/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/toolkit/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/asf/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/mpeg/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/mpeg/id3v1/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/mpeg/id3v2/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/mpeg/id3v2/frames/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/ogg/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/ogg/vorbis/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/ogg/speex/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/ogg/flac/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/flac/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/ape/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/mpc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/mp4/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/wavpack/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/trueaudio/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/riff/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/riff/aiff/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/taglib/riff/wav/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/tests/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/examples/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/bindings/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/taglib-1.7/bindings/c/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
+         Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+     1>Done Building Project "D:\taglib-1.7\ZERO_CHECK.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.22
